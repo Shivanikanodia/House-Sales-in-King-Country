@@ -33,7 +33,7 @@ You may also need numpy and other dependencies, which can be installed using:
 pip install -r requirements.txt
 Features
 
-Stock Information:
+## Stock Information:
 Extracts metadata about a company, such as its sector, country, and financial summary.
 Historical Share Prices:
 Fetches historical stock prices (Open, High, Low, Close, Volume) for specified periods.

@@ -1,6 +1,6 @@
 # Stock Data Extraction and Analysis Using `yfinance`
 
-#Project Overview
+## Project Overview
 This project demonstrates how to extract, analyze, and visualize stock market data using Python and the `yfinance` library. The project focuses on extracting key information, historical stock prices, and dividend data for companies like **Apple Inc. (AAPL)** and **Advanced Micro Devices (AMD)**.
 
 
@@ -21,13 +21,23 @@ A stock represents ownership in a company. This project uses the `yfinance` libr
 
 The extracted data can be used for data analysis, visualization, and further financial modeling.
 
+
 ## Installation
 
 To run this project, you need to install the following Python libraries:
 
 ```bash
 pip install yfinance pandas matplotlib
-
 You may also need numpy and other dependencies, which can be installed using:
 
 pip install -r requirements.txt
+Features
+
+Stock Information:
+Extracts metadata about a company, such as its sector, country, and financial summary.
+Historical Share Prices:
+Fetches historical stock prices (Open, High, Low, Close, Volume) for specified periods.
+Dividend Data:
+Retrieves historical dividend distributions and visualizes them.
+Interactive Visualization:
+Provides insights through time-series plots of stock prices and dividends

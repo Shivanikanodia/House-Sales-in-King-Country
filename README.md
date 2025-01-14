@@ -55,6 +55,8 @@ To run the project, ensure you have Python installed along with the required lib
 pip install pandas matplotlib seaborn numpy scikit-learn
 Modules Covered
 
+##Steps Involved:
+
 1. Data Wrangling
 Loaded the dataset and cleaned missing values in bedrooms and bathrooms by replacing them with the mean.
 Dropped unnecessary columns (id and Unnamed: 0).
@@ -72,32 +74,40 @@ Split data into training and testing sets.
 Applied Ridge regression with second-order polynomial features, achieving an R² = 0.70.
 Usage
 
-Clone the repository:
+##Clone the repository:
 git clone https://github.com/your-username/king-county-house-sales.git
 cd king-county-house-sales
+
 Load the dataset: Download the dataset from the provided link or load it directly using:
 df = pd.read_csv("kc_house_data_NaN.csv")
+
 Run the analysis:
 Use Jupyter Notebook or Python to execute the analysis.
+
 Example commands:
 Count houses with unique floor values:
 df['floors'].value_counts().to_frame()
+
 Box plot for price outliers:
 sns.boxplot(x='waterfront', y='price', data=df)
+
 Regression model with polynomial features:
 RidgeModel1.fit(x_train_pr, y_train)
 RidgeModel1.score(x_test_pr, y_test)
-Results
+
+##Results
 
 Correlation Analysis:
 Features most correlated with price:
 sqft_living (0.70)
 grade (0.66)
 sqft_above (0.60)
+
 Model Performance:
 Simple Linear Regression (sqft_living): R² = 0.49
 Multiple Linear Regression: R² = 0.66
 Ridge Regression with Polynomial Features: R² = 0.70
+
 Insights:
 Houses with waterfront views tend to have more price outliers.
 Larger sqft_living and higher grade strongly influence house prices.
@@ -107,7 +117,7 @@ This project is licensed under the MIT License.
 
 Author
 
-Your Name
+Shivani Kanodia
 Role: Data Analyst / Data Scientist
 GitHub: Your GitHub Profile
 Contribution

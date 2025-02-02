@@ -113,21 +113,4 @@ Larger sqft_living and higher grade strongly influence house prices.
 License:
 This project is licensed under the MIT License.
 
-Author
 
-Shivani Kanodia
-Role: Data Analyst / Data Scientist
-GitHub: Your GitHub Profile
-Contribution
-
-Contributions are welcome! Please open an issue or submit a pull request.
-
-
----
-
-### **Steps to Use This README**
-1. Copy the content into a file named `README.md` in your project directory.
-2. Add any images (like plots) referenced in the README, and update their paths in the file.
-3. Push the changes to your GitHub repository.
-
-Let me know if you'd like additional customization or help uploading it to GitHub!

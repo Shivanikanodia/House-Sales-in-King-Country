@@ -73,17 +73,16 @@ Created pipelines for polynomial regression and evaluated performance using Ridg
 Split data into training and testing sets.
 Applied Ridge regression with second-order polynomial features, achieving an R² = 0.70.
 
-##Clone the repository:
+## Clone the repository:
 git clone https://github.com/your-username/king-county-house-sales.git
 cd king-county-house-sales
 
-Load the dataset: Download the dataset from the provided link or load it directly using:
+### Load the dataset: Download the dataset from the provided link or load it directly using:
 df = pd.read_csv("kc_house_data_NaN.csv")
 
-Run the analysis:
+### Run the analysis:
 Use Jupyter Notebook or Python to execute the analysis.
 
-Example commands:
 Count houses with unique floor values:
 df['floors'].value_counts().to_frame()
 
@@ -94,7 +93,7 @@ Regression model with polynomial features:
 RidgeModel1.fit(x_train_pr, y_train)
 RidgeModel1.score(x_test_pr, y_test)
 
-##Results
+## Results
 
 Correlation Analysis:
 Features most correlated with price:

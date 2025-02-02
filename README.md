@@ -49,30 +49,29 @@ The dataset contains 21 features related to houses sold in King County, Washingt
 ---
 
 ## Installation
+
 To run the project, ensure you have Python installed along with the required libraries. You can install the libraries using:
 
-```bash
-pip install pandas matplotlib seaborn numpy scikit-learn
-Modules Covered
-
-##Steps Involved:
+## Steps Involved:
 
 1. Data Wrangling
 Loaded the dataset and cleaned missing values in bedrooms and bathrooms by replacing them with the mean.
 Dropped unnecessary columns (id and Unnamed: 0).
-2. Exploratory Data Analysis
+
+3. Exploratory Data Analysis
 Counted houses with unique floor values.
 Used box plots to analyze waterfront houses.
 Performed correlation analysis to identify features most correlated with price.
-3. Model Development
+
+5. Model Development
 Built linear regression models:
 Predicting price using individual features like sqft_living (R² = 0.49).
 Using multiple features to predict price (R² = 0.66).
 Created pipelines for polynomial regression and evaluated performance using Ridge Regression.
-4. Model Evaluation and Refinement
+
+7. Model Evaluation and Refinement
 Split data into training and testing sets.
 Applied Ridge regression with second-order polynomial features, achieving an R² = 0.70.
-Usage
 
 ##Clone the repository:
 git clone https://github.com/your-username/king-county-house-sales.git
@@ -111,8 +110,8 @@ Ridge Regression with Polynomial Features: R² = 0.70
 Insights:
 Houses with waterfront views tend to have more price outliers.
 Larger sqft_living and higher grade strongly influence house prices.
-License
 
+License:
 This project is licensed under the MIT License.
 
 Author
